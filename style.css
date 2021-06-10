@@ -13,12 +13,20 @@
     margin-bottom: 100px;
 }
 
-.banner-bg{
-    background-image: url("images/bg-1.png");
+ .banner-bg{
+     background-image: url("images/bg-1.png"); 
     background-repeat: no-repeat;
     background-position: center;
-    margin: 60px auto;
-}  
+    margin: 100px auto;
+    padding-bottom: 100px;
+}   
+.carousel-bg{
+    background: url("images/bg-2.png");
+    padding-bottom: 50px ; 
+    margin-left: 50px;
+    background-position: left bottom;
+    background-repeat: no-repeat; 
+} 
 
 .buy-now-button{
     background-image: linear-gradient(to bottom,black 0%, black 100% );
